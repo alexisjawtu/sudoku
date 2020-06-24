@@ -24,8 +24,6 @@ void cargar_los_datos()
                 int num = 0;
                 sudoku_dato >> num;
                 m_dato[i][j] = num;
-                ////////////
-                //cout << m_dato[i][j];
                 x = sudoku_dato.peek();
                 j ++;
                 if (x == ',') sudoku_dato.get();
